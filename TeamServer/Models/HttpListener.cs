@@ -1,6 +1,11 @@
-﻿namespace TeamServer.Models
+﻿using System;
+using System.Collections.Generic;
+using System.Linq;
+using System.Threading.Tasks;
+
+namespace TeamServer.Models
 {
-    public class HttpListener
+    public class HttpListener : Listener
     {
     }
 }
